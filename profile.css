@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+  
+  .header {
+    text-align: right;
+    padding: 10px 20px;
+  }
+  
+  .fire {
+    font-size: 20px;
+  }
+  
+  .cover {
+    background: url('images/mars-background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+  }
+  
+  .rank {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .score {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
